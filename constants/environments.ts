@@ -1,0 +1,19 @@
+import { config } from 'dotenv';
+
+config();
+export const {
+    APPPORT,
+    MONGODB_URL,
+    JWT_TOKEN_SECRET,
+    JWT_REFRESHTOKEN_SECRET,
+    CLOUDINARY_CLOUDNAME,
+    CLOUDINARY_API_KEY,
+    CLOUDINARY_API_SECRET,
+    TERMI_API_KEY,
+    MAILGUN_API_KEY,
+    MAILGUN_DOMAIN,
+    TERMI_SENDER_ID,
+    SENDER_EMAIL,
+    FRONTEND_URL,
+    MAILGUN_API_URL
+} = process.env;
